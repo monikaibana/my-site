@@ -1,0 +1,27 @@
+.contact {
+  padding-top: 15vh;
+  text-align: left;
+  margin-left: 7.5vw;
+  padding-bottom: 15vh;
+}
+.divider {
+  height: 5px;
+  background-color: #ffa18f;
+  border-width: 0;
+  border-radius: 5px;
+  margin-left: 0;
+  width: 7.5vw;
+}
+.contact h2 {
+  font-size: 2em;
+  font-weight: 500;
+  color: #414141;
+  margin-top: 20px;
+}
+.text {
+  color: #414141;
+}
+.text p {
+  font-size: 22px;
+  font-weight: 300;
+}

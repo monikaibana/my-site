@@ -1,14 +1,63 @@
 import React from "react";
-import Routes from "./Routes";
-import { BrowserRouter as Router } from "react-router-dom";
+import Home from "./components/Home.js";
+import About from "./components/About.js";
+import Work from "./components/Work.js";
+import Resume from "./components/Resume.js";
+import Projects from "./components/Projects.js";
+import Contact from "./components/Contact.js";
+import logo from "./containers/images/logo-new.png";
+import $ from "jquery";
+
+$(function () {
+  var header = $(".navbar");
+
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 15) {
+      header.addClass("scrolled");
+    } else {
+      header.removeClass("scrolled");
+    }
+  });
+});
 
 function App() {
   return (
-    <Router>
-      <div className="app">
-        <Routes />
+    <div className="app">
+      <div id="home">
+        <Home />
       </div>
-    </Router>
+      <div id="about">
+        <About />
+      </div>
+      <div id="work">
+        <Work />
+      </div>
+      <div id="resume">
+        <Resume />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      <div className="trademark">Some kinda trademark idk</div>
+      <div className="navbar">
+        <div className="logo">
+          <a href="#home">
+            <img href="#home" src={logo} alt="logo" />
+          </a>
+        </div>
+        <ul className="navbar-items">
+          <li>About</li>
+          <li>Work</li>
+          <li>Resume</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
   );
 }
 

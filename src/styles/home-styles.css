@@ -1,0 +1,65 @@
+.home {
+  position: relative;
+  display: flex;
+  padding-top: 2.25%;
+}
+.home-section {
+  min-height: 650px;
+  width: 95vw;
+  background: #efefef;
+  margin: auto;
+}
+.circle {
+  float: right;
+}
+.circle img {
+  max-width: 40%;
+  float: right;
+}
+.home-content {
+  display: flex;
+  height: 500px;
+  padding-top: 100px;
+  align-items: center;
+}
+.name {
+  min-width: 50%;
+  margin-left: 15vw;
+  margin-top: -20px;
+}
+.name h1 {
+  font-size: 4em;
+  font-weight: 500;
+  color: #414141;
+}
+.name h3 {
+  font-size: 2em;
+  margin-top: -40px;
+  font-weight: 700;
+  color: #ffa18f;
+}
+.profile {
+  min-width: 30vw;
+  max-width: 50vh;
+  margin-left: 10vw;
+}
+.profile img {
+  max-width: 30vw;
+}
+.links {
+  float: right;
+  display: flex;
+  padding-right: 7vw;
+}
+.github {
+  padding: 10px;
+}
+.github img {
+  max-width: 40px;
+}
+.linkedin {
+  padding: 10px;
+}
+.linkedin img {
+  max-width: 40px;
+}

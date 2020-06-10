@@ -1,0 +1,38 @@
+.resume {
+  padding-top: 15vh;
+  text-align: left;
+  margin-left: 7.5vw;
+  padding-bottom: 15vh;
+}
+.resume h2 {
+  font-size: 2em;
+  font-weight: 500;
+  color: #414141;
+  margin-top: 20px;
+}
+.resume-content {
+  display: flex;
+  align-items: center;
+  padding-right: 2vw;
+}
+.resume-content img {
+  max-width: 40vw;
+  padding-top: 40px;
+  padding-left: 2vw;
+  box-shadow: 5px 5px 5px #dbdbdb;
+  border: 1px solid #dbdbdb;
+}
+.text {
+  max-width: 20vw;
+  margin-right: 5vw;
+  margin-left: 7vw;
+  color: #414141;
+}
+.text p {
+  font-size: 22px;
+  font-weight: 300;
+}
+.under {
+  border-bottom: 3px solid #ffa18f;
+  border-radius: 1px;
+}
