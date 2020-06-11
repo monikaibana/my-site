@@ -5,7 +5,7 @@ import Work from "./components/Work.js";
 import Resume from "./components/Resume.js";
 import Projects from "./components/Projects.js";
 import Contact from "./components/Contact.js";
-import logo from "./containers/images/logo-new.png";
+import logo from "./components/images/logo-new.png";
 import $ from "jquery";
 
 $(function () {
