@@ -50,11 +50,21 @@ function App() {
           </a>
         </div>
         <ul className="navbar-items">
-          <li>About</li>
-          <li>Work</li>
-          <li>Resume</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <a href="#about">
+            <li>About</li>
+          </a>
+          <a href="#work">
+            <li>Work</li>
+          </a>
+          <a href="#resume">
+            <li>Resume</li>
+          </a>
+          <a href="#projects">
+            <li>Projects</li>
+          </a>
+          <a href="#contact">
+            <li>Contact</li>
+          </a>
         </ul>
       </div>
     </div>

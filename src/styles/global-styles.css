@@ -1,0 +1,58 @@
+.white-section {
+  padding-top: 10vh;
+  text-align: left;
+  margin-left: 7.5vw;
+  padding-bottom: 5vh;
+}
+.divider {
+  height: 5px;
+  background-color: #ffa18f;
+  border-width: 0;
+  border-radius: 5px;
+  margin-left: 0;
+  width: 7.5vw;
+}
+.white-section h2 {
+  font-size: 2em;
+  font-weight: 500;
+  color: #414141;
+  margin-top: 20px;
+}
+.gray-section {
+  position: relative;
+  display: flex;
+  padding-top: 2.25%;
+}
+.gray-header {
+  font-size: 2em;
+  font-weight: 500;
+  color: #414141;
+  margin-left: 5.5vw;
+  margin-top: 20px;
+}
+.gray-box {
+  min-height: 650px;
+  width: 95vw;
+  background: #efefef;
+  margin: auto;
+}
+.gray-content {
+  display: flex;
+  padding-top: 0.25vh;
+  margin: 0 4vw;
+  height: 600px;
+}
+.white-card {
+  background-color: white;
+  flex: 1;
+  margin-right: 2vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-height: 600px;
+  padding-top: 5vh;
+}
+.under {
+  border-bottom: 3px solid #ffa18f;
+  border-radius: 1px;
+}

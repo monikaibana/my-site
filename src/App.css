@@ -1,12 +1,6 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .navbar {
   position: fixed;
   display: flex;
@@ -27,12 +21,21 @@
 .navbar-items {
   padding-left: 460px;
 }
+.navbar a {
+  text-decoration: none;
+  color: #414141;
+}
 .navbar li {
   text-decoration: none;
   list-style: none;
   display: inline-block;
   text-align: center;
   padding: 0px 30px;
+  transition: color 0.2s ease;
+}
+.navbar li:hover {
+  color: #ffa18f;
+  transform: scale(1.1);
 }
 .logo img {
   max-height: 60px;
@@ -40,4 +43,6 @@
 }
 .trademark {
   text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 10px;
 }

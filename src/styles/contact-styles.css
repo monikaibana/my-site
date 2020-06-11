@@ -18,10 +18,28 @@
   color: #414141;
   margin-top: 20px;
 }
-.text {
+.contact-text {
   color: #414141;
 }
-.text p {
+.contact-text p {
   font-size: 22px;
   font-weight: 300;
+}
+.contact-text a {
+  font-size: 22px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #414141;
+}
+.email {
+  transition: color 0.2s ease;
+}
+.email:hover {
+  color: #ffa18f;
+}
+.linkedin {
+  transition: color 0.2s ease;
+}
+.linkedin:hover {
+  color: #ffa18f;
 }

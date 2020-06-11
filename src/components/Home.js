@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import "../styles/home-styles.css";
+import "../styles/global-styles.css";
 import circle from "./images/circle.png";
 import profile from "./images/person-1.png";
 import github from "./images/github.png";
@@ -9,8 +10,8 @@ import linkedin from "./images/linkedin.png";
 class Home extends React.Component {
   render() {
     return (
-      <div className="home">
-        <div className="home-section">
+      <div className="gray-section">
+        <div className="gray-box">
           <div className="circle">
             <img src={circle} alt="circle" />
           </div>
@@ -25,10 +26,27 @@ class Home extends React.Component {
           </div>
           <div className="links">
             <div className="github">
-              <img src={github} alt="github" />
+              <a
+                href="https://github.com/monikaibana"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={github} alt="github" />
+              </a>
             </div>
             <div className="linkedin">
-              <img src={linkedin} alt="linkedin" />
+              <a
+                href="https://www.linkedin.com/in/monikaibana"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={linkedin}
+                  alt="linkedin"
+                  href="https://www.linkedin.com/in/monikaibana"
+                  target="_blank"
+                />
+              </a>
             </div>
           </div>
         </div>

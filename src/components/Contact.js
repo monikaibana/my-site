@@ -1,17 +1,29 @@
 import React from "react";
 import "../styles/contact-styles.css";
+import "../styles/global-styles.css";
 
 class Contact extends React.Component {
   render() {
     return (
-      <div className="contact">
+      <div className="white-section">
         <hr className="divider" />
         <h2>Contact</h2>
         <div className="contact-content">
-          <div className="text">
+          <div className="contact-text">
             <p>
-              If you would like to chat, please email me at
-              ibanamonika@gmail.com or connect with me on LinkedIn.
+              If you would like to chat, please email me at{" "}
+              <a className="email" href="mailto:ibanamonika@gmail.com">
+                <span className="under">ibanamonika@gmail.com</span>
+              </a>{" "}
+              or connect with me on
+              <a
+                className="linkedin"
+                href="https://www.linkedin.com/in/monikaibana"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="under">LinkedIn.</span>
+              </a>
             </p>
             <p>Thanks for visiting!</p>
           </div>

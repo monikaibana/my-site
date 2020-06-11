@@ -44,7 +44,7 @@
   margin-left: 10vw;
 }
 .profile img {
-  max-width: 30vw;
+  max-width: 400px;
 }
 .links {
   float: right;
@@ -56,10 +56,18 @@
 }
 .github img {
   max-width: 40px;
+  transition: transform 0.2s;
+}
+.github img:hover {
+  transform: scale(1.1);
 }
 .linkedin {
   padding: 10px;
 }
 .linkedin img {
   max-width: 40px;
+  transition: transform 0.2s;
+}
+.linkedin img:hover {
+  transform: scale(1.1);
 }
