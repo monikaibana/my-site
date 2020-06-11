@@ -17,7 +17,7 @@
 .resume-text {
   max-width: 25vw;
   margin-right: 5vw;
-  margin-left: 8vw;
+  margin-left: 6vw;
   color: #414141;
   text-align: center;
 }
@@ -34,7 +34,7 @@
   color: #414141;
   border: 2px solid #ffa18f;
   border-radius: 25px;
-  padding: 12px;
+  padding: 12px 20px;
 }
 .download-button:hover {
   transition: background-color 0.15s ease;
@@ -43,5 +43,4 @@
   background-color: #ffa18f;
   color: white;
   border: 2px solid #ffa18f;
-  padding: 12px;
 }

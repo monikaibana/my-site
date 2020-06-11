@@ -20,10 +20,12 @@
 }
 .contact-text {
   color: #414141;
+  margin-top: 50px;
 }
 .contact-text p {
   font-size: 22px;
   font-weight: 300;
+  margin-left: 0;
 }
 .contact-text a {
   font-size: 22px;

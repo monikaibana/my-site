@@ -42,7 +42,7 @@ function App() {
       <div id="contact">
         <Contact />
       </div>
-      <div className="trademark">Some kinda trademark idk</div>
+      <div className="trademark">Some kinda trademark/copyright idk</div>
       <div className="navbar">
         <div className="logo">
           <a href="#home">

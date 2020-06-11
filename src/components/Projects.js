@@ -16,6 +16,7 @@ class Projects extends React.Component {
           <div className="gray-content">
             <div className="white-card">
               <div className="coop-one">
+                <div>[placeholder for Bluebook]</div>
                 <img
                   className="coop-image"
                   src="https://www.hit-play.com/wp-content/uploads/2019/09/Website-Loyalty-One-Atrium-hitplay.jpg"
@@ -37,6 +38,7 @@ class Projects extends React.Component {
             </div>
             <div className="white-card">
               <div className="coop-two">
+                <div>[placeholder for Automation project]</div>
                 <img
                   className="coop-image"
                   src="https://images.ctfassets.net/a3qyhfznts9y/3oqOvifWLAtjIKiqwg9y1v/149d4c3d04bd4a0774334af9b89c1fb3/haven-overview-ca_3x.jpg?w=1960&h=1960&q=80&fm=webp"

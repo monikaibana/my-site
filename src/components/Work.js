@@ -45,11 +45,11 @@ class Work extends React.Component {
                   alt="ecobee"
                 ></img>
                 <div className="blurb">
-                  At ecobee, I worked on the smart light switch, the Switch+. I
-                  developed automated tests for the light switch firmware, as
-                  well as researched and provided a proof of concept for an
-                  automation test fixture for end to end testing of motion
-                  sensors.
+                  At ecobee, I worked on the smart light switch, called the
+                  ecobee Switch+. I developed automated tests for the light
+                  switch firmware, as well as researched and provided a proof of
+                  concept for an automation test fixture for end to end testing
+                  of motion sensors.
                 </div>
                 <img
                   className="company-logo"
