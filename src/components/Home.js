@@ -3,7 +3,6 @@ import "../App.css";
 import "../styles/home-styles.css";
 import "../styles/global-styles.css";
 import circle from "./images/circle.png";
-import profile from "./images/person-1.png";
 import github from "./images/github.png";
 import linkedin from "./images/linkedin.png";
 
@@ -21,7 +20,10 @@ class Home extends React.Component {
               <h3>Software QA Engineer</h3>
             </div>
             <div className="profile">
-              <img src={profile} alt="profile" />
+              <img
+                src="https://monikaibana-site.s3.amazonaws.com/person-1.png"
+                alt="profile"
+              />
             </div>
           </div>
           <div className="links">
