@@ -23,12 +23,12 @@
   margin-top: 50px;
 }
 .contact-text p {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 300;
   margin-left: 0;
 }
 .contact-text a {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 300;
   text-decoration: none;
   color: #414141;
@@ -41,6 +41,7 @@
 }
 .linkedin {
   transition: color 0.2s ease;
+  padding: 0;
 }
 .linkedin:hover {
   color: #ffa18f;

@@ -19,7 +19,7 @@
   box-shadow: 0px 2px 5px #dbdbdb;
 }
 .navbar-items {
-  padding-left: 460px;
+  padding-left: 400px;
 }
 .navbar a {
   text-decoration: none;
@@ -30,7 +30,7 @@
   list-style: none;
   display: inline-block;
   text-align: center;
-  padding: 0px 30px;
+  padding: 0px 25px;
   transition: color 0.2s ease;
 }
 .navbar li:hover {
@@ -40,9 +40,4 @@
 .logo img {
   max-height: 60px;
   padding-left: 75px;
-}
-.trademark {
-  text-align: center;
-  padding-top: 5vh;
-  padding-bottom: 10px;
 }

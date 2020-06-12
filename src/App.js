@@ -42,7 +42,6 @@ function App() {
       <div id="contact">
         <Contact />
       </div>
-      <div className="trademark">Some kinda trademark/copyright idk</div>
       <div className="navbar">
         <div className="logo">
           <a href="#home">
@@ -50,6 +49,9 @@ function App() {
           </a>
         </div>
         <ul className="navbar-items">
+          <a href="#home">
+            <li>Home</li>
+          </a>
           <a href="#about">
             <li>About</li>
           </a>

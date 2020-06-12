@@ -11,11 +11,11 @@ class Contact extends React.Component {
         <div className="contact-content">
           <div className="contact-text">
             <p>
-              If you would like to chat, please email me at{" "}
+              If you would like to chat, please email me at&nbsp;
               <a className="email" href="mailto:ibanamonika@gmail.com">
                 <span className="under">ibanamonika@gmail.com</span>
-              </a>{" "}
-              or connect with me on
+              </a>
+              &nbsp;or connect with me on&nbsp;
               <a
                 className="linkedin"
                 href="https://www.linkedin.com/in/monikaibana"
