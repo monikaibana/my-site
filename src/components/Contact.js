@@ -17,7 +17,7 @@ class Contact extends React.Component {
               </a>
               &nbsp;or connect with me on&nbsp;
               <a
-                className="linkedin"
+                className="linked-in"
                 href="https://www.linkedin.com/in/monikaibana"
                 target="_blank"
                 rel="noopener noreferrer"

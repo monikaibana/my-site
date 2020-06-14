@@ -39,10 +39,10 @@
 .email:hover {
   color: #ffa18f;
 }
-.linkedin {
+.linked-in {
   transition: color 0.2s ease;
   padding: 0;
 }
-.linkedin:hover {
+.linked-in:hover {
   color: #ffa18f;
 }
